@@ -1,0 +1,5 @@
+# Timing constraints
+NET "clk50mhz" PERIOD=20 ns;
+NET "clk200" KEEP | S | PERIOD=5 ns;
+NET "clk30" KEEP | S | PERIOD=33 ns;
+NET "clk7" KEEP | S | PERIOD=133 ns;
